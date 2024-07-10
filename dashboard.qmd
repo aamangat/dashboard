@@ -1,0 +1,37 @@
+---
+title: "Dashboard"
+format: 
+  dashboard: 
+    logo: "images/Love.jpg"
+    orientation: columns
+---
+
+
+## Column {width="35%"}
+placeholder content
+
+```{r}
+#| echo: false
+#| include: false
+
+library(tidyverse)
+
+```
+
+
+```{r}
+head(starwars)
+```
+
+
+## Colunm {width="65%"}
+
+### Row {height="10%"}
+Placeholder for this row
+
+### Row {height="70%"}
+placeholder content
+
+### Row {height="20%"}
+placeholder content
+
