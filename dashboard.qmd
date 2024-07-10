@@ -30,7 +30,7 @@ head(starwars)
 Placeholder for this row
 
 ### Row {height="70%"}
-placeholder content
+placeholder for the row number 2
 
 ### Row {height="20%"}
 placeholder content
