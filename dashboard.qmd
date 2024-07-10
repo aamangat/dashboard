@@ -15,9 +15,17 @@ placeholder content
 #| include: false
 
 library(tidyverse)
+library(lubridate)
+
+time <- Sys.time()
+
+time_pdt <- with_tz(time = time, tzone = "America/Los_angeles")
+
+
 
 ```
 
+Processing time in pdt  = `r format(time_pdt)`
 
 ```{r}
 head(starwars)
