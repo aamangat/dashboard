@@ -19,13 +19,10 @@ library(lubridate)
 
 time <- Sys.time()
 
-time_pdt <- with_tz(time = time, tzone = "America/Los_angeles")
-
-
-
+time_pdt <- with_tz(time = time, tzone = "America/Los_Angeles")
 ```
 
-Processing time in pdt  = `r format(time_pdt)`
+Processing time in pdt  = `r time_pdt`
 
 ```{r}
 head(starwars)
